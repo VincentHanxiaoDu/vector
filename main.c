@@ -37,7 +37,6 @@ int main()
     {
         printf("%i_%s_%p\n",i, (char*)vec->items[i], &vec->items[i]);
     }
-    printf("%i\n", vector_pop(vec, 6));
     // printf("%s\n", "===========");
     // for (int i=0; i<vec->size; i++)
     // {
